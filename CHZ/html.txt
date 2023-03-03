@@ -1,0 +1,43 @@
+TERMINOLOGIES
+Web Browsers are software or applications used to access websites.
+websites are hosted on webservers
+Websites are accessed on mirriad of devices
+
+HTML/html
+html stand for HyperText Markup Language. It is the most basic building block of the Web that defines the meaning and structure of web content.
+html pages are text documents.
+html uses tags (characters that sit inside angled brackets) to give the information they surround special meaning.
+Tags usually come in pairs. The opening tag denotes the start of a piece of content; the closing tag denotes the end.
+Opening tags can carry attributes, which tell us more about the content of that element.
+Attributes require a name and a value.
+Therefore, to learn html one need to know what tags are available for use, what they do, and where they can go.
+
+
+Tags
+ < > is an opening tag.
+ </ > is a closing tag.
+ <html> is an html opening tag.
+ </html> is an html closing tag.
+ <body> is a body opening tag.
+ </body> is a body closing tag.
+ Everything inside the body element is shown inside the main browser window.
+ 
+ <head> is a head opening tag.
+ <head> is a head closing tag.
+ Before the body element one will often see a head element which contains information about the page (rather than information that is shown within the main part of the browser window.
+ 
+<title> is a title opening tag.
+<title> is a title closing tag.
+ 
+ <h1> is a first level heading opening tag.
+ </h1> is  first level heading closing tag.
+ <h2> is a second level heading opening tag.
+ </h2> is  second level heading closing tag.
+ <h3> is a thid level heading opening tag.
+ </h3> is  third level heading closing tag
+ <h4> is a fourth level heading opening tag.
+ </h4> is a fourth level heading closing tag.
+ <h5> is a fifth level heading opening tag.
+ </h5> is  fifth level heading closing tag.
+ <h6> is a sixth or final level heading opening tag.
+ </h6> is  sixth or final level heading closing tag.
