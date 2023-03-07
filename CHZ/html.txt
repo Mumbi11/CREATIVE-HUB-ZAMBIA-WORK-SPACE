@@ -163,5 +163,82 @@ TAGS
  Visually the content of an <s> element will usually be displayed with a line through the center.
  Older versions of HTML had a <u> element for content that was underlined, but this is being phased out.
  
+ LIST
+ There are three types of HTML lists: ordered, unordered, and definition.
+ Ordered lists use numbers, Unordered lists use bullets, definition lists are used to define terminology.
+ Lists can be nested inside one another.
+ 
+ Ordered List
+ 
+ The ordered list is created with the <ol> element.
+ Each item in the list is placed between an opening <li> tag and a closing </li> tag.
+ Browsers indent lists by default.
+ Sometimes you may see a type attribute used with the <ol> element to specify the type of numbering (numbers, letters, roman numerals
+ and so on). In such instances, it is better to use the CSS liststyle-type property.
+ 
+ Unordered-Lists
+ Unordered list is created with the <ul> element. Just like with ordered list, each item in the list is placed between an opening <li> 
+ tag and a closing </li> tag.
+ Browsers indent lists by default. Sometimes you may see a type attribute used with the <ul> element to specify the type of bullet
+ point (circles, squares, diamonds and so on). Here too, it is better to use the CSS list-styletype property 
+ 
+ Definition Lists
+ Definition list is created with the <dl> element and usually consists of a series of terms and their definitions.
+ Inside the <dl> element one will usually see pairs of <dt> and <dd> elements. <dt> is used to contain the term being defined while 
+ <dd> is used to contain the definition.
+ Sometimes you might see a list where there are two terms used for the same definition or two different definitions for the same term.
+ 
+ Nested Lists
+ One can put a second list inside an <li> element to create a sublist or nested list.
+ Browsers display nested lists indented further than the parent list. In nested unordered lists, the browser will usually change the 
+ style of the bullet point too.
+ 
+ LINKS
+ Links are the defining feature of the web because they allow you to move from one web page to another — enabling the very idea of browsing or surfing.
+ Links can be from one website to another, from one page to another on the same website and from one part of a web page to another part of the same page.
+ There also links that open in a new browser window and links that start up your email program and address a new email to someone.
+ Links are created using the <a> element. Users can click on anything between the opening <a> tag and the closing </a> tag. You specify
+ which page you want to link to using the href attribute.
+ The text between the opening <a> tag and closing </a> tag is known as link text. Where possible, your link text should explain where visitors will be taken 
+ if they click on it (rather than just saying "click here").
+ Many people navigate websites by scanning the text for links. Clear link text can help visitors find what they want. This will give them a more positive 
+ impression of your site and may encourage them to visit it for longer. It also helps people using screen reader software.
+ To write good link text, you can think of words people might use when searching for the page that you are linking to. (For example, rather than write
+"places to stay" you could use something more specific such as "hotels in New York.")
+ 
+ Linking to other-Sites
+ Links are created using the <a> element which has an attribute called href. The value of the href attribute is the page that you want people to go to when
+ they click on the link.
+ Users can click on anything that appears between the opening <a> tag and the closing </a> tag and will be taken to the page specified in the href attribute.
+ When you link to a different website, the value of the href attribute will be the full web address for the site, which is known as an absolute URL.
+ An absolute URL starts with the domain name for that site, and can be followed by the path to a specific page. If no page is specified, the site will display the homepage
+ URL stands for Uniform Resource Locator and every web page has its own URL. This is the web address that you would type into a browser if you wanted to
+ visit that specific page.
+ Browsers show links in blue with an underline by default.
+ 
+ Linking to other Pages
+ When one is linking to other pages within the same site, you do not need to specify the domain name in the URL. You can use a shorthand known as a relative URL.
+ If all the pages of the site are in the same folder, then the value of the href attribute is just the name of the file.
+ If you have different pages of a site in different folders, then you can use a slightly more complex syntax to indicate where the page is in relation to the current page.
+ If you look at the download code for each chapter, you will see that the index.html file contains links that use relative URLs.
+ Relative URL are used when linking to other pages within the same site. These are like a shorthand version of absolute URLs because you do not need to specify the domain name.
+ Relative URLs help when building a site on your computer because you can create links between pages without having to set up your domain name or hosting.
+ 
+ Directory Strucrure
+ On larger websites it's a good idea to organize your code by placing the pages for each different section of the site into a new folder. Folders on a website 
+ are sometimes referred to as directories.
+ The top-level folder is known as the root folder and contains all of the other files and folders for a website.
+ Each section of the site is placed in a separate folder; this helps organize the files.
+ The relationship between files and folders on a website is described using the same terminology as a family tree. 
+ The main homepage of a site written in HTML (and the homepages of each section in a child folder) is called index.html.
+ Web servers are usually set up to return the index.html file if no file name is specified.
+ 
+ Relative Link Type
+ To link to a file in the same folder, just use the file name.
+ For a child folder, use the name of the child folder, followed by a forward slash, then the file name.
+ Use the name of the child folder, followed by a forward slash, then the name of the grandchild folder, followed by another forward slash, then the file name.
+ To link to a parent folder you should use ../ to indicate the folder above the current one, then follow it with the file name.
+ To link to a grandparent folder, one can repeat the ../ to indicate that you want to go up two folders (rather than one), then follow it with the
+file name.
  
  
